@@ -1,0 +1,26 @@
+{
+  "comments": [
+    {
+      "description": "First Comment for Java",
+      "pk": {
+        "postCommentId": 1
+      },
+      "version": 0
+    },
+    {
+      "description": "Second Comment for Java",
+      "pk": {
+        "postCommentId": 2
+      },
+      "version": 0
+    },
+    {
+      "description": "Third Comment for Java",
+      "pk": {
+        "postCommentId": 3
+      },
+      "version": 0
+    }
+  ],
+  "postId": 1
+}

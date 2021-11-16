@@ -24,13 +24,6 @@ public abstract class BaseEntity implements Serializable {
     @Temporal(TemporalType.TIMESTAMP)
     protected Date updated;
 
-    @JsonIgnore
-    @Column(updatable = false)
-    private String createdBy;
-
-    @JsonIgnore
-    private String updatedBy;
-
     @PrePersist
     public void prePersist() {
         this.created = new Date();
